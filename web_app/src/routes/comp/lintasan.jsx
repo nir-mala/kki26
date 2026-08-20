@@ -24,7 +24,7 @@ const Lintasan = ({ namaLintasan, children }) => {
   // =========================================================
 
   const CLOUDFLARE_IMAGE_URL =
-    'https://expense-evanescence-technician-specifics.trycloudflare.com'
+    'https://livecam-vocational-elder-photographers.trycloudflare.com'
 
   const FALLBACK_SURFACE = '/surface.jpg'
   const FALLBACK_UNDERWATER = '/underwater.jpg'
