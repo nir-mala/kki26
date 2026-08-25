@@ -24,7 +24,7 @@ const Lintasan = ({ namaLintasan, children }) => {
   // =========================================================
 
   const CLOUDFLARE_IMAGE_URL =
-    'https://livecam-vocational-elder-photographers.trycloudflare.com'
+    'https://baths-guy-somewhere-representing.trycloudflare.com'
 
   const FALLBACK_SURFACE = '/surface.jpg'
   const FALLBACK_UNDERWATER = '/underwater.jpg'
@@ -53,7 +53,7 @@ const Lintasan = ({ namaLintasan, children }) => {
   // =========================================================
 
   const STREAM_URL =
-    'http://192.168.2.101:8080/stream?topic=/camera1/image&type=ros_compressed'
+    'http://192.168.2.100:8080/stream?topic=/camera1/image&type=ros_compressed'
 
   const [videoSrc, setVideoSrc] = useState(STREAM_URL)
   const [isVideoError, setIsVideoError] = useState(false)
@@ -73,10 +73,10 @@ const Lintasan = ({ namaLintasan, children }) => {
 
   const BACK4APP_HEADERS = {
     'X-Parse-Application-Id':
-      'dUP2XE7bPBGnpz1rRT9fWlVvf1XZ9D0ukkpsxhLv',
+      'AtYwaafZCgXGTUGpl7xnXWGyyvv6eJqEoBDt5ioD',
 
     'X-Parse-REST-API-Key':
-      'DZbe1lu0xVOeBniJD04FCXRTyN50EVsavJLRuwJS',
+      'xqdjXlmQBXv1sE6nhBma8X6X77jW8e78dvR1vjMX',
   }
 
   // =========================================================
@@ -85,7 +85,7 @@ const Lintasan = ({ namaLintasan, children }) => {
 
   const fetchData = () => {
     fetch(
-      'https://parseapi.back4app.com/classes/nirmala?order=-createdAt&limit=1',
+      'https://parseapi.back4app.com/classes/database?order=-createdAt&limit=1',
       {
         headers: BACK4APP_HEADERS,
       }
