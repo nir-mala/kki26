@@ -20,16 +20,24 @@ const Lintasan = ({ namaLintasan, children }) => {
   const [isTracking, setIsTracking] = useState(false)
 
   // =========================================================
-  // CLOUDFLARE TUNNEL - IMAGE
+  // CLOUDFLARE TUNNEL
+  // SATU URL UNTUK GAMBAR + STREAMING
   // =========================================================
 
-  const CLOUDFLARE_IMAGE_URL =
-    'https://necklace-environmental-missing-tells.trycloudflare.com'
+  const CLOUDFLARE_URL =
+    'https://susan-sys-phrase-sql.trycloudflare.com'
+
+  // =========================================================
+  // FALLBACK IMAGE
+  // =========================================================
 
   const FALLBACK_SURFACE = '/surface.jpg'
   const FALLBACK_UNDERWATER = '/underwater.jpg'
 
-  // Timestamp untuk memaksa browser mengambil gambar terbaru
+  // =========================================================
+  // TIMESTAMP GAMBAR
+  // =========================================================
+
   const [imageTimestamp, setImageTimestamp] = useState(Date.now())
 
   // Update timestamp setiap 3 detik
@@ -41,19 +49,22 @@ const Lintasan = ({ namaLintasan, children }) => {
     return () => clearInterval(imageInterval)
   }, [])
 
-  // URL gambar dari Cloudflare
+  // =========================================================
+  // URL GAMBAR
+  // =========================================================
+
   const surfaceSrc =
-    `${CLOUDFLARE_IMAGE_URL}/sbox1.jpg?t=${imageTimestamp}`
+    `${CLOUDFLARE_URL}/images/sbox1.jpg?t=${imageTimestamp}`
 
   const underwaterSrc =
-    `${CLOUDFLARE_IMAGE_URL}/ubox1.jpg?t=${imageTimestamp}`
+    `${CLOUDFLARE_URL}/images/ubox1.jpg?t=${imageTimestamp}`
 
   // =========================================================
   // VIDEO STREAMING ROS
   // =========================================================
 
   const STREAM_URL =
-    'https://avoid-experimental-mistress-hydraulic.trycloudflare.com/stream?topic=/camera1/image&type=ros_compressed'
+    `${CLOUDFLARE_URL}/stream`
 
   const [videoSrc, setVideoSrc] = useState(STREAM_URL)
   const [isVideoError, setIsVideoError] = useState(false)
@@ -63,7 +74,7 @@ const Lintasan = ({ namaLintasan, children }) => {
 
     // Tambahkan timestamp agar browser mencoba koneksi ulang
     setVideoSrc(
-      `${STREAM_URL}&t=${new Date().getTime()}`
+      `${STREAM_URL}?t=${Date.now()}`
     )
   }
 
@@ -356,7 +367,7 @@ const Lintasan = ({ namaLintasan, children }) => {
                 </div>
 
                 <h3 className="text-center bg-slate-200 rounded-lg py-2 font-semibold mt-2">
-                  Surface
+                  Underwater
                 </h3>
 
               </div>
@@ -381,7 +392,7 @@ const Lintasan = ({ namaLintasan, children }) => {
                 </div>
 
                 <h3 className="text-center bg-slate-200 rounded-lg py-2 font-semibold mt-2">
-                  Underwater
+                  Surface
                 </h3>
 
               </div>
@@ -599,7 +610,6 @@ const Lintasan = ({ namaLintasan, children }) => {
                     }
 
                     return child
-
                   }
                 )}
 
