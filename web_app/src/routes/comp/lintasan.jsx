@@ -23,8 +23,8 @@ const Lintasan = ({ namaLintasan, children }) => {
   // CLOUDFLARE TUNNEL - IMAGE
   // =========================================================
 
-  const CLOUDFLARE=
-    'https://journalism-vid-sight-switching.trycloudflare.com/'
+  const CLOUDFLARE_IMAGE_URL =
+    'https://necklace-environmental-missing-tells.trycloudflare.com'
 
   const FALLBACK_SURFACE = '/surface.jpg'
   const FALLBACK_UNDERWATER = '/underwater.jpg'
@@ -43,16 +43,19 @@ const Lintasan = ({ namaLintasan, children }) => {
 
   // URL gambar dari Cloudflare
   const surfaceSrc =
-    `${CLOUDFLARE}/sbox1.jpg?t=${imageTimestamp}`
+    `${CLOUDFLARE_IMAGE_URL}/sbox1.jpg?t=${imageTimestamp}`
 
   const underwaterSrc =
-    `${CLOUDFLARE}/ubox1.jpg?t=${imageTimestamp}`
+    `${CLOUDFLARE_IMAGE_URL}/ubox1.jpg?t=${imageTimestamp}`
 
   // =========================================================
   // VIDEO STREAMING ROS
   // =========================================================
 
-  const [videoSrc, setVideoSrc] = useState(CLOUDFLARE)
+  const STREAM_URL =
+    'https://avoid-experimental-mistress-hydraulic.trycloudflare.com/'
+
+  const [videoSrc, setVideoSrc] = useState(STREAM_URL)
   const [isVideoError, setIsVideoError] = useState(false)
 
   const handleRetryVideo = () => {
@@ -60,7 +63,7 @@ const Lintasan = ({ namaLintasan, children }) => {
 
     // Tambahkan timestamp agar browser mencoba koneksi ulang
     setVideoSrc(
-      `${CLOUDFLARE}&t=${new Date().getTime()}`
+      `${STREAM_URL}&t=${new Date().getTime()}`
     )
   }
 
