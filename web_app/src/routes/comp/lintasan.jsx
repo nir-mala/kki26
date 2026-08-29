@@ -53,7 +53,7 @@ const Lintasan = ({ namaLintasan, children }) => {
   // =========================================================
 
   const STREAM_URL =
-    'https://avoid-experimental-mistress-hydraulic.trycloudflare.com/'
+    'https://avoid-experimental-mistress-hydraulic.trycloudflare.com/stream?topic=/camera1/image&type=ros_compressed'
 
   const [videoSrc, setVideoSrc] = useState(STREAM_URL)
   const [isVideoError, setIsVideoError] = useState(false)
