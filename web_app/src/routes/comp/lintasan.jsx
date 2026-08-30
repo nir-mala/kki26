@@ -25,7 +25,7 @@ const Lintasan = ({ namaLintasan, children }) => {
   // =========================================================
 
   const CLOUDFLARE_URL =
-    'https://susan-sys-phrase-sql.trycloudflare.com'
+    'https://representing-seeing-cornell-hardwood.trycloudflare.com'
 
   // =========================================================
   // FALLBACK IMAGE
