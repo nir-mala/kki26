@@ -25,7 +25,7 @@ const Lintasan = ({ namaLintasan, children }) => {
   // =========================================================
 
   const CLOUDFLARE_URL =
-    'https://phentermine-pot-bacon-exclusion.trycloudflare.com'
+    'https://roberts-washer-struct-dock.trycloudflare.com'
 
   // =========================================================
   // FALLBACK IMAGE
