@@ -25,7 +25,7 @@ const Lintasan = ({ namaLintasan, children }) => {
   // =========================================================
 
   const CLOUDFLARE_URL =
-    'https://representing-seeing-cornell-hardwood.trycloudflare.com'
+    'https://phentermine-pot-bacon-exclusion.trycloudflare.com'
 
   // =========================================================
   // FALLBACK IMAGE
