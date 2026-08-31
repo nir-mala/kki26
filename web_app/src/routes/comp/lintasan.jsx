@@ -564,11 +564,11 @@ const Lintasan = ({ namaLintasan, children }) => {
               CHECKPOINT + TRAJECTORY
           ================================================= */}
 
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-4 flex-1">
+          {/* <div className="grid grid-cols-1 md:grid-cols-4 gap-4 flex-1"> */}
 
             {/* CHECKPOINT */}
 
-            <div className="md:col-span-1 flex flex-col">
+            {/* <div className="md:col-span-1 flex flex-col">
 
               <h2 className="text-xl font-semibold mb-4 bg-blue-500 text-white py-3 rounded-lg text-center w-full">
                 CHECKPOINT
@@ -582,7 +582,7 @@ const Lintasan = ({ namaLintasan, children }) => {
 
               </div>
 
-            </div>
+            </div> */}
 
             {/* TRAJECTORY */}
 
@@ -617,7 +617,7 @@ const Lintasan = ({ namaLintasan, children }) => {
 
             </div>
 
-          </div>
+          {/* </div> */}
 
         </div>
 
