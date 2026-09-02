@@ -25,7 +25,7 @@ const Lintasan = ({ namaLintasan, children }) => {
   // =========================================================
 
   const CLOUDFLARE_URL =
-    'https://distinguished-teeth-interpreted-separate.trycloudflare.com/'
+    'https://spirituality-horizon-marion-drums.trycloudflare.com'
 
   // =========================================================
   // FALLBACK IMAGE
