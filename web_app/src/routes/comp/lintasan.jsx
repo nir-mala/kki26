@@ -367,7 +367,7 @@ const Lintasan = ({ namaLintasan, children }) => {
                 </div>
 
                 <h3 className="text-center bg-slate-200 rounded-lg py-2 font-semibold mt-2">
-                  Underwater
+                  Surface
                 </h3>
 
               </div>
@@ -392,7 +392,7 @@ const Lintasan = ({ namaLintasan, children }) => {
                 </div>
 
                 <h3 className="text-center bg-slate-200 rounded-lg py-2 font-semibold mt-2">
-                  Surface
+                  Underwater
                 </h3>
 
               </div>
