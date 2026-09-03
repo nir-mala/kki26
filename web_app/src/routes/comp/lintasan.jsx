@@ -25,7 +25,7 @@ const Lintasan = ({ namaLintasan, children }) => {
   // =========================================================
 
   const CLOUDFLARE_URL =
-    'https://term-morrison-possession-shaved.trycloudflare.com'
+    'https://navy-symptoms-express-ranger.trycloudflare.com/'
 
   // =========================================================
   // FALLBACK IMAGE
