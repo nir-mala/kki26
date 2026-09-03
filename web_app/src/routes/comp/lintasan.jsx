@@ -354,7 +354,7 @@ const Lintasan = ({ namaLintasan, children }) => {
                 <div className="flex-1">
 
                   <img
-                    src={underwaterSrc}
+                    src={surfaceSrc}
                     onError={(event) => {
                       event.currentTarget.onerror = null
                       event.currentTarget.src =
@@ -379,7 +379,7 @@ const Lintasan = ({ namaLintasan, children }) => {
                 <div className="flex-1">
 
                   <img
-                    src={surfaceSrc}
+                    src={underwaterSrc}
                     onError={(event) => {
                       event.currentTarget.onerror = null
                       event.currentTarget.src =
