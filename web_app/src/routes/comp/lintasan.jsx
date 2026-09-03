@@ -25,7 +25,7 @@ const Lintasan = ({ namaLintasan, children }) => {
   // =========================================================
 
   const CLOUDFLARE_URL =
-    'https://ships-purple-raised-soa.trycloudflare.com/'
+    'https://term-morrison-possession-shaved.trycloudflare.com'
 
   // =========================================================
   // FALLBACK IMAGE
