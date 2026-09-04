@@ -25,7 +25,7 @@ const Lintasan = ({ namaLintasan, children }) => {
   // =========================================================
 
   const CLOUDFLARE_URL =
-    'https://navy-symptoms-express-ranger.trycloudflare.com/'
+    'https://internal-lynn-avoiding-optics.trycloudflare.com/'
 
   // =========================================================
   // FALLBACK IMAGE
