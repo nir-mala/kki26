@@ -84,10 +84,10 @@ const Lintasan = ({ namaLintasan, children }) => {
 
   const BACK4APP_HEADERS = {
     'X-Parse-Application-Id':
-      'AtYwaafZCgXGTUGpl7xnXWGyyvv6eJqEoBDt5ioD',
+      'KqkkG9zVrDx5eGp5bqii7LmKjlbdfn1wyFt0vSAT',
 
     'X-Parse-REST-API-Key':
-      'xqdjXlmQBXv1sE6nhBma8X6X77jW8e78dvR1vjMX',
+      'XNddlghEorTPkyPoGCOqupxN9pl6izhD65DeXOTL',
   }
 
   // =========================================================
