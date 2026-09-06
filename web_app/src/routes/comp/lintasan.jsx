@@ -96,7 +96,7 @@ const Lintasan = ({ namaLintasan, children }) => {
 
   const fetchData = () => {
     fetch(
-      'https://parseapi.back4app.com/classes/database?order=-createdAt&limit=1',
+      'https://parseapi.back4app.com/classes/database2?order=-createdAt&limit=1',
       {
         headers: BACK4APP_HEADERS,
       }
