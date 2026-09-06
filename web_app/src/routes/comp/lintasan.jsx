@@ -25,7 +25,7 @@ const Lintasan = ({ namaLintasan, children }) => {
   // =========================================================
 
   const CLOUDFLARE_URL =
-    'https://methodology-enhance-nicole-sbjct.trycloudflare.com/'
+    'https://stages-marriage-statutes-interest.trycloudflare.com/'
 
   // =========================================================
   // FALLBACK IMAGE
