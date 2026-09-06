@@ -25,7 +25,7 @@ const Lintasan = ({ namaLintasan, children }) => {
   // =========================================================
 
   const CLOUDFLARE_URL =
-    'https://internal-lynn-avoiding-optics.trycloudflare.com/'
+    'https://methodology-enhance-nicole-sbjct.trycloudflare.com/'
 
   // =========================================================
   // FALLBACK IMAGE
